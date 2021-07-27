@@ -1456,10 +1456,7 @@ a {
 
 .cursor-wrapper.cursor-none.mbm-difference {
   z-index: 9007199254740991;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .outer-circle {
@@ -1576,10 +1573,7 @@ a {
 
 .nav-wrapper.cursor-none {
   z-index: 90099999999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .nav-bg {
@@ -1779,6 +1773,10 @@ a {
   width: 2.6vw;
   height: 2.6vw;
   margin-right: 1vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   color: #000;
 }
 
@@ -1815,7 +1813,7 @@ a {
 }
 
 .dribble {
-  display: inline-block;
+  display: block;
   width: 2.6vw;
   height: 20px;
   -webkit-transition: color 200ms ease;
@@ -1870,10 +1868,7 @@ a {
   right: 0%;
   bottom: 0%;
   z-index: 20;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100px;
   -webkit-box-orient: vertical;
@@ -2674,6 +2669,10 @@ a {
   top: 9.8vh;
   right: 30vw;
   z-index: 1;
+  display: none;
+}
+
+.hoverino._1.cursor-none {
   display: none;
 }
 
